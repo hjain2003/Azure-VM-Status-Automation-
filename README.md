@@ -46,16 +46,6 @@ This solution uses:
 2. Verify email delivery and HTML formatting
 3. Check that all VMs are being reported correctly
 
-## 📁 Repository Structure
-
-```
-├── scripts/
-│   └── Get-VMStatus.ps1          # PowerShell runbook script
-├── images/
-│   └── logic-app-flow.png        # Logic App workflow diagram
-└── README.md                     # This file
-```
-
 ## 🔧 PowerShell Script Details
 
 The automation runbook performs these actions:
