@@ -36,7 +36,7 @@ This solution uses:
 
 ### Step 3: Deploy the Logic App
 
-1. Create the logic app following the steps in [`images/logic-app-flow.png`](logic-app-flow.png)
+1. Create the logic app following the steps in [`images/logic-app-flow.png`](images/logic-app-flow.png)
 2. Configure email connector with your credentials
 
 ### Step 4: Test the Solution
