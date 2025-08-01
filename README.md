@@ -32,28 +32,19 @@ This solution uses:
 3. Copy the script from [`scripts/Get-VMStatus.ps1`](scripts/Get-VMStatus.ps1)
 4. Update the `$subscriptionId` variable with your subscription ID
 5. **Save** and **Publish** the runbook
-6. You may test the runbook. The output should look like [`images/runbook-result.png`](runbook-result.png)
+6. You may test the runbook. The output should look like
+   
+ ![`images/runbook-result.png`](images/runbook-result.png)
 
 ### Step 3: Deploy the Logic App
 
-1. Create the logic app following the steps in [`images/logic-app-flow.png`](logic-app-flow.png)
-2. Configure email connector with your credentials
+![`images/logic-app-flow.png`](images/logic-app-flow.png)
 
 ### Step 4: Test the Solution
 
 1. Manually run the Logic App to test
 2. Verify email delivery and HTML formatting
 3. Check that all VMs are being reported correctly
-
-## 📁 Repository Structure
-
-```
-├── scripts/
-│   └── Get-VMStatus.ps1          # PowerShell runbook script
-├── images/
-│   └── logic-app-flow.png        # Logic App workflow diagram
-└── README.md                     # This file
-```
 
 ## 🔧 PowerShell Script Details
 
