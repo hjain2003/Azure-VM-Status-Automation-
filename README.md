@@ -32,7 +32,7 @@ This solution uses:
 3. Copy the script from [`scripts/Get-VMStatus.ps1`](scripts/Get-VMStatus.ps1)
 4. Update the `$subscriptionId` variable with your subscription ID
 5. **Save** and **Publish** the runbook
-6. You may test the runbook. The output should look like ![`images/runbook-result.png`](runbook-result.png)
+6. You may test the runbook. The output should look like ![`images/runbook-result.png`](images/runbook-result.png)
 
 ### Step 3: Deploy the Logic App
 
